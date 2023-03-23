@@ -20,24 +20,22 @@ html {
 }
 /*父盒子*/
 .fa {
-    color: red;
-    /*伸缩布局*/
+    color: #437de4;
     display: flex;
-    /*改变主轴方向  竖排*/
     flex-direction: column;
     position: fixed;
     z-index: 111;
-    top: 20px;
-    left: 33%;
+    width: 100%;
 }
 .fir {
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 26px;
+    margin-bottom: 60px;
+    margin-top: 120px;
+    text-align: center;
+    width: 100%;
 }
 .fa .sj {
-    /*伸缩布局*/
     display: flex;
-    /*改变主轴方向*/
     flex-direction: column;
 
 }
@@ -51,13 +49,13 @@ html {
     margin-bottom: 30px;
     /*多行侧轴排列方式*/
     align-content: space-around;
-    color:#ff7675;
+    color:#3ad7df;
     font-size: 25px;
 }
 .fa .sj .zi {
-    color:#d63031;
+    color:#4272a2;
 }
 .zi{
     display: flex;
-    margin-left: 8px;
+    margin:0  8px;
 }
