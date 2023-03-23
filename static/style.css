@@ -1,0 +1,63 @@
+/*初始化*/
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+#starBg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+/*背景色*/
+body,
+html {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* background-color: black; */
+}
+/*父盒子*/
+.fa {
+    color: red;
+    /*伸缩布局*/
+    display: flex;
+    /*改变主轴方向  竖排*/
+    flex-direction: column;
+    position: fixed;
+    z-index: 111;
+    top: 20px;
+    left: 33%;
+}
+.fir {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.fa .sj {
+    /*伸缩布局*/
+    display: flex;
+    /*改变主轴方向*/
+    flex-direction: column;
+
+}
+.fa .sj div {
+    width: 100%;
+    /*伸缩布局*/
+    display: flex;
+    /*主轴排列方式*/
+    justify-content: center;
+    color: black;
+    margin-bottom: 30px;
+    /*多行侧轴排列方式*/
+    align-content: space-around;
+    color:#ff7675;
+    font-size: 25px;
+}
+.fa .sj .zi {
+    color:#d63031;
+}
+.zi{
+    display: flex;
+    margin-left: 8px;
+}
