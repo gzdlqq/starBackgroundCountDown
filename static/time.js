@@ -22,8 +22,8 @@ function getNowToNewYear() {
     // 到期时间
     let NewYear = new Date("2023-07-13");
     // 验证
-    // 时间戳 新年到现在的差值
-    let sjc = NewYear.getTime() - Now.getTime();
+    // 时间戳 日期到现在的差值
+    let sjc = Now.getTime() - NewYear.getTime();
     // console.log((sjc / 1000 / 60 / 60 / 24));
     // 时间戳 单位是毫秒 /1000得到秒数
     sjc = (sjc / 1000);
